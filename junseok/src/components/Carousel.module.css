@@ -1,0 +1,44 @@
+.carousel {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.carousel__container {
+  display: flex;
+  list-style-type: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.carousel__item {
+  width: 500px;
+  height: 300px;
+  flex: none;
+}
+
+.btns__container {
+  padding: 0 0.5rem;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.btns {
+  padding: 0.5rem;
+  background-color: transparent;
+  border: 1px solid powderblue;
+  border-radius: 0.5rem;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.btns:hover {
+  background-color: rgb(96, 127, 132);
+  border: 1px solid rgb(96, 127, 132);
+  color: #fff;
+}

@@ -1,0 +1,50 @@
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo__wrapper {
+  width: 20rem;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  overflow-y: hidden;
+}
+
+.todo__form {
+  display: flex;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.todo__form input {
+  padding-left: 0.2rem;
+  width: 80%;
+  border: none;
+  outline: none;
+}
+
+.todo__form button {
+  padding: 0.2rem;
+  flex-grow: 1;
+  background-color: #1d4f56;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.todo__list {
+  list-style-type: none;
+  overflow-y: auto;
+}
+
+.todo__item {
+  padding: 0.3rem;
+}
+
+.todo__item:nth-child(even) {
+  background-color: #46411e;
+  color: #fff;
+}
